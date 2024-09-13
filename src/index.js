@@ -69,7 +69,7 @@ document.querySelector(".calculator").onclick = (event) => {
         a = a / b;
         break;
       case "+/-":
-        a = -1 * a;
+        a = (-1) * a;
         break;
       case "%":
         a = a / 100;
@@ -87,3 +87,4 @@ function toggleColor() {
 
   res.classList.toggle("lightColor");
 }
+
