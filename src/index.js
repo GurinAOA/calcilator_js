@@ -1,4 +1,4 @@
-import './styles.css'
+import "./styles.css";
 let a = "";
 let b = "";
 let sign = "";
@@ -79,3 +79,11 @@ document.querySelector(".calculator").onclick = (event) => {
     out.textContent = a;
   }
 };
+
+const res = document.querySelector(".result");
+res.addEventListener("click", toggleColor);
+function toggleColor() {
+  document.getElementsByClassName("darkColor")[0];
+
+  res.classList.toggle("lightColor");
+}

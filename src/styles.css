@@ -40,11 +40,19 @@ body {
 .result {
   border-radius: 15px 15px 0 0;
   width: 100%;
-  background-color: rgb(83, 79, 79);
+ 
   min-height: 3em;
   color: white;
   position: relative;
 }
+.darkColor{
+  background-color: rgb(83, 79, 79);
+}
+.lightColor{
+  background-color: rgb(235, 221, 221); 
+}
+
+
 .result > p {
   padding: 0 0.5em;
   text-align: right;
@@ -106,3 +114,4 @@ margin-left: 10px;
   top:20px;
   left:20px;
 }
+
